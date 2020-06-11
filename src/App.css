@@ -1,0 +1,64 @@
+.navbar{
+    background-color:white;
+    padding: 15px 10px; 
+    position: fixed; 
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px; 
+    z-index: 1;
+}
+
+.logo{
+  float: left;
+}
+
+.navbar ul{
+  margin-right: 40px;
+
+  list-style: none;
+}
+
+.navbar ul li{
+    list-style-type:none;
+    font-family: Verdana,Geneva,sans-serif;  
+    font-size:14px;
+
+
+}
+
+.navbar ul li a{
+  float: right;
+
+  padding: 10px 25px;
+
+
+}
+
+.navbar ul li a.active{
+  color:black;
+  border: 1px solid blue;
+
+
+}
+
+.a1{
+  margin-top: 50px;
+  height: 100vh;
+  background-color: teal;
+ 
+
+}
+
+
+.a2{
+  height: 100vh;
+  background-color:grey;
+ 
+}
+
+.a3{
+  height: 100vh;
+  background-color:red;
+  
+}
